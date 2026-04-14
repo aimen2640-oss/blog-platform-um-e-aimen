@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog Platform - Um E Aimen</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>MyBlog</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Blog</a>
+    <a href="#">About</a>
+    <a href="#" onclick="showLogin()">Login</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h2>Welcome to My Blog</h2>
+  <p>Explore amazing articles</p>
+</section>
+
+<div class="container">
+
+  <div class="posts">
+    <div class="card">
+      <img src="https://via.placeholder.com/300">
+      <h3>Web Development</h3>
+      <p>Learn HTML CSS step by step</p>
+      <button>Read More</button>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300">
+      <h3>AI Basics</h3>
+      <p>Introduction to Artificial Intelligence</p>
+      <button>Read More</button>
+    </div>
+
+    <div class="card">
+      <img src="https://via.placeholder.com/300">
+      <h3>JavaScript</h3>
+      <p>Master JavaScript easily</p>
+      <button>Read More</button>
+    </div>
+  </div>
+
+  <aside>
+    <input type="text" placeholder="Search...">
+    <h4>Categories</h4>
+    <ul>
+      <li>Tech</li>
+      <li>Design</li>
+      <li>AI</li>
+    </ul>
+  </aside>
+
+</div>
+
+<!-- LOGIN BOX -->
+<div id="loginBox" class="login-box">
+  <h3>Login</h3>
+  <input type="email" id="email" placeholder="Email"><br>
+  <input type="password" id="password" placeholder="Password"><br>
+  <button onclick="login()">Login</button>
+</div>
+
+<footer>
+  <p>© 2026 Um E Aimen | Contact | Terms</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
