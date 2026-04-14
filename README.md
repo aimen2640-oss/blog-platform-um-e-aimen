@@ -17,17 +17,28 @@ Um E Aimen
 ## 🌐 Live Demo
 (https://aimen2640-oss.github.io/blog-platform-um-e-aimen/)
 
-## 📸 Project Screenshots
+## 📸 Task 6: Role-Based Authentication Proof
 
-### 🔑 Admin Role (Full Access)
-In this view, the Admin has permission to View, Edit, and Delete posts.
-![Admin Dashboard](admin.jpg)
+I have implemented backend logic using Python to manage different user roles and their specific permissions.
 
-### 📝 Editor Role (Partial Access)
-In this view, the Editor can View and Edit but is denied Delete permissions.
-![Editor Dashboard](editor.jpg)
+### 🔑 1. Admin Role
+**Permissions:** View: ✅ | Edit: ✅ | Delete: ✅  
+*The Admin has full control over the platform.*
+![Admin Proof](admin.jpg)
 
-### 👁️ Viewer Role (Read-Only)
-In this view, the Viewer can only View posts; Edit and Delete are denied.
-![Viewer Dashboard](viewer.jpg)
+### 📝 2. Editor Role
+**Permissions:** View: ✅ | Edit: ✅ | Delete: ❌  
+*The Editor can create and modify content but cannot delete it.*
+![Editor Proof](editor.jpg)
+
+### 👁️ 3. Viewer Role
+**Permissions:** View: ✅ | Edit: ❌ | Delete: ❌  
+*The Viewer has read-only access to the blog posts.*
+![Viewer Proof](Viewer.jpg)
+
+---
+## 🌐 Blog Frontend UI
+This is the responsive frontend layout designed for the blog platform.
+![Blog UI](1776197859599.jpeg)
+
 
