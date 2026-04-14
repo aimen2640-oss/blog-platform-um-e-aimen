@@ -15,7 +15,19 @@ Um E Aimen
 - JavaScript
 
 ## 🌐 Live Demo
-(Add your GitHub link here)
+(https://aimen2640-oss.github.io/blog-platform-um-e-aimen/)
 
-## 📸 Screenshots
-(Add screenshots)
+## 📸 Project Screenshots
+
+### 🔑 Admin Role (Full Access)
+In this view, the Admin has permission to View, Edit, and Delete posts.
+![Admin Dashboard](admin.jpg)
+
+### 📝 Editor Role (Partial Access)
+In this view, the Editor can View and Edit but is denied Delete permissions.
+![Editor Dashboard](editor.jpg)
+
+### 👁️ Viewer Role (Read-Only)
+In this view, the Viewer can only View posts; Edit and Delete are denied.
+![Viewer Dashboard](viewer.jpg)
+
